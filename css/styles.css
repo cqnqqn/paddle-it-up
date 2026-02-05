@@ -389,7 +389,7 @@ p:last-child {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('../images/gym.jpg') center/cover no-repeat;
+    background: url('../images/court-alt.jpg') center/cover no-repeat;
 }
 
 .hero-overlay {
@@ -410,27 +410,19 @@ p:last-child {
 
 .hero-logo-box {
     display: inline-flex;
-    flex-direction: column;
     align-items: center;
-    gap: 12px;
+    justify-content: center;
     background-color: var(--color-cream);
-    padding: 30px 50px;
+    padding: 30px 40px;
     border-radius: var(--radius-lg);
     margin-bottom: 24px;
     box-shadow: var(--shadow-lg);
 }
 
 .hero-logo-box img {
-    height: 80px;
+    height: 100px;
     width: auto;
-}
-
-.hero-logo-box span {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--color-heading);
-    letter-spacing: 1px;
+    border-radius: 8px;
 }
 
 .hero-tagline {
@@ -809,15 +801,11 @@ p:last-child {
 
 @media (max-width: 767px) {
     .hero-logo-box {
-        padding: 24px 36px;
+        padding: 20px 30px;
     }
 
     .hero-logo-box img {
-        height: 60px;
-    }
-
-    .hero-logo-box span {
-        font-size: 1.25rem;
+        height: 70px;
     }
 
     .hero-tagline {
