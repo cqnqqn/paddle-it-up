@@ -438,6 +438,7 @@ p:last-child {
     margin-top: 1rem;
     width: 100%;
     justify-content: center;
+    color: var(--color-white);
 }
 
 /* ============================================
