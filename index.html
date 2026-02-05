@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="San Marcos Pickleball - Your premier pickleball destination in San Marcos, CA. Professional courts, all skill levels welcome. Shop our exclusive merch.">
-    <meta name="keywords" content="pickleball, San Marcos, CA, pickleball gym, pickleball courts, pickleball gear">
-    <meta name="author" content="San Marcos Pickleball">
+    <meta name="description" content="Paddle It Up - Premier indoor pickleball facility in San Marcos, CA. Where champions are made and communities connect.">
+    <meta name="keywords" content="pickleball, San Marcos, CA, pickleball gym, pickleball courts, indoor pickleball">
+    <meta name="author" content="Paddle It Up">
 
-    <title>San Marcos Pickleball | Your Premier Pickleball Destination</title>
+    <title>Paddle It Up | Premier Pickleball in San Marcos, CA</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
@@ -22,14 +22,14 @@
     {
         "@context": "https://schema.org",
         "@type": "SportsActivityLocation",
-        "name": "San Marcos Pickleball",
-        "description": "Your premier pickleball destination in San Marcos, CA",
-        "url": "https://www.yourwebsite.com",
+        "name": "Paddle It Up",
+        "description": "Premier indoor pickleball facility in San Marcos, CA",
+        "url": "https://cqnqqn.github.io/paddle-it-up",
         "telephone": "+1-760-555-0123",
-        "email": "info@placeholder.com",
+        "email": "info@paddleitup.com",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "123 Placeholder St",
+            "streetAddress": "123 Main Street",
             "addressLocality": "San Marcos",
             "addressRegion": "CA",
             "postalCode": "92078",
@@ -53,33 +53,28 @@
                 "opens": "07:00",
                 "closes": "20:00"
             }
-        ],
-        "sameAs": [
-            "https://www.instagram.com/yourhandle",
-            "https://www.facebook.com/yourpage"
         ]
     }
     </script>
 </head>
 <body>
-    <!-- ============================================
-         HEADER / NAVIGATION
-         ============================================ -->
+    <!-- Header -->
     <header class="header" id="header">
         <div class="container">
             <nav class="nav">
                 <a href="#" class="logo">
-                    <img src="images/logo.PNG" alt="San Marcos Pickleball Logo">
+                    <img src="images/logo.PNG" alt="Paddle It Up Logo">
+                    <span>Paddle It Up</span>
                 </a>
 
-                <!-- Desktop Navigation -->
                 <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#shop">Shop</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#location">Location</a></li>
                 </ul>
 
-                <!-- Mobile Menu Toggle -->
+                <a href="#contact" class="btn btn-primary nav-cta">Book Now</a>
+
                 <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
@@ -88,224 +83,263 @@
             </nav>
         </div>
 
-        <!-- Mobile Menu Overlay -->
         <div class="mobile-menu-overlay"></div>
-
-        <!-- Mobile Menu -->
         <div class="mobile-menu">
             <ul class="mobile-nav-links">
+                <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact" class="btn btn-primary">Book Now</a></li>
             </ul>
         </div>
     </header>
 
     <main>
-        <!-- ============================================
-             HERO SECTION
-             ============================================ -->
+        <!-- Hero Section -->
         <section class="hero">
-            <!--
-                BACKGROUND IMAGE INSTRUCTIONS:
-                Replace the CSS gradient in styles.css (.hero) with your actual image:
-                background: linear-gradient(rgba(26, 35, 50, 0.7), rgba(26, 35, 50, 0.7)), url('../images/hero-bg.jpg') center/cover no-repeat;
-            -->
+            <div class="hero-overlay"></div>
             <div class="hero-content">
-                <h1 class="hero-title">San Marcos Pickleball</h1>
-                <h2 class="hero-subtitle">Your Premier Pickleball Destination</h2>
-                <a href="#shop" class="btn btn-primary">Shop Merch</a>
+                <div class="hero-logo-box">
+                    <img src="images/logo.PNG" alt="Paddle It Up">
+                    <span>Paddle It Up</span>
+                </div>
+                <p class="hero-tagline">Premier indoor pickleball facility. Where champions are made and communities connect.</p>
+                <a href="#contact" class="btn btn-primary btn-lg">Book Your Court Now</a>
             </div>
         </section>
 
-        <!-- ============================================
-             ABOUT SECTION
-             ============================================ -->
-        <section class="about section" id="about">
+        <!-- Services Section -->
+        <section class="services section" id="services">
             <div class="container">
-                <h2 class="section-title">Welcome to San Marcos Pickleball</h2>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Discover world-class facilities designed for players of all skill levels</p>
 
-                <!-- Feature Cards -->
-                <div class="feature-cards">
-                    <div class="feature-card fade-in">
-                        <div class="feature-image">
-                            <img src="images/court.jpg" alt="Professional pickleball courts">
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <div class="service-image">
+                            <img src="images/court-with-people.jpg" alt="Pickleball courts">
                         </div>
-                        <h3>Professional Courts</h3>
-                        <p>State-of-the-art indoor and outdoor courts with premium surfaces designed for optimal play and player safety.</p>
+                        <div class="service-content">
+                            <h3>Pickleball</h3>
+                            <p>Experience the fastest growing sport in America on our premium indoor courts with professional-grade surfaces.</p>
+                        </div>
                     </div>
 
-                    <div class="feature-card fade-in">
-                        <div class="feature-image">
-                            <img src="images/court-with-people.jpg" alt="Players of all skill levels">
+                    <div class="service-card fade-in">
+                        <div class="service-image">
+                            <img src="images/court.jpg" alt="Court rentals">
                         </div>
-                        <h3>All Skill Levels</h3>
-                        <p>Whether you're picking up a paddle for the first time or competing at tournament level, we have programs for you.</p>
+                        <div class="service-content">
+                            <h3>Court Rentals</h3>
+                            <p>Book our championship-quality courts for private play, group sessions, or special events with flexible scheduling.</p>
+                        </div>
                     </div>
 
-                    <div class="feature-card fade-in">
-                        <div class="feature-image">
-                            <img src="images/court-alt.jpg" alt="San Marcos pickleball facility">
+                    <div class="service-card fade-in">
+                        <div class="service-image">
+                            <img src="images/court-alt.jpg" alt="Lessons and training">
                         </div>
-                        <h3>San Marcos Location</h3>
-                        <p>Conveniently located in the heart of San Marcos, CA with easy access and ample parking for all visitors.</p>
+                        <div class="service-content">
+                            <h3>Lessons & Training</h3>
+                            <p>Improve your game with our certified coaches offering private lessons, group clinics, and skill development programs.</p>
+                        </div>
                     </div>
-                </div>
-
-                <!-- About Text -->
-                <div class="about-text fade-in">
-                    <p>Welcome to San Marcos Pickleball, the premier destination for pickleball enthusiasts in North County San Diego. Our facility was designed from the ground up with one goal in mind: to create the ultimate pickleball experience for players of all ages and skill levels.</p>
-
-                    <p>Our facility features multiple championship-quality courts, professional lighting, and climate-controlled indoor playing areas. Whether you're looking for competitive league play, casual open court time, or professional instruction, San Marcos Pickleball has everything you need to elevate your game.</p>
-
-                    <p>Join our growing community of pickleball players and discover why San Marcos Pickleball is quickly becoming the go-to destination for the fastest-growing sport in America. We can't wait to see you on the courts!</p>
                 </div>
             </div>
         </section>
 
-        <!-- ============================================
-             SHOP SECTION
-             ============================================ -->
-        <section class="shop section" id="shop">
+        <!-- Why Choose Us Section -->
+        <section class="why-us section" id="about">
             <div class="container">
-                <h2 class="section-title">Shop Merch</h2>
-                <p class="section-subtitle">Represent San Marcos Pickleball with our exclusive gear</p>
+                <h2 class="section-title">Why Choose Paddle It Up?</h2>
+                <p class="section-subtitle">More than just courts - we're building a community where passion for racquet sports thrives. Experience the difference with our world-class facilities and dedicated service.</p>
 
-                <div class="products-grid">
-                    <!-- Product 1 -->
-                    <div class="product-card fade-in">
-                        <div class="product-image">
-                            <!-- Replace with: <img src="images/product-classic-tee.jpg" alt="Classic Logo Tee"> -->
-                            <span>Product Image</span>
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
                         </div>
-                        <div class="product-info">
-                            <h3 class="product-name">Classic Logo Tee</h3>
-                            <p class="product-price">$29.99</p>
+                        <div class="feature-text">
+                            <h3>Community Focused</h3>
+                            <p>Join a vibrant community of players with regular tournaments, leagues, and social events for all skill levels.</p>
+                        </div>
+                    </div>
 
-                            <!-- Shopify Buy Button for Classic Logo Tee goes here -->
-                            <div id="shopify-product-1" class="shopify-buy-button">
-                                <!--
-                                    SHOPIFY BUY BUTTON INSTRUCTIONS:
-                                    1. Go to your Shopify admin > Sales channels > Buy Button
-                                    2. Select the "Classic Logo Tee" product
-                                    3. Customize the button style to match your site
-                                    4. Copy the generated embed code
-                                    5. Paste it here, replacing this comment
-                                -->
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="8" r="7"/>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Professional Standards</h3>
+                            <p>Championship-quality courts with professional lighting, climate control, and equipment that meets tournament specifications.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Safety First</h3>
+                            <p>State-of-the-art safety features, first aid stations, and trained staff ensure a secure environment for all players.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Premium Experience</h3>
+                            <p>Comfortable locker rooms, equipment rental, pro shop, and refreshment area for the ultimate sports experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ready to Play CTA -->
+                <div class="cta-box fade-in">
+                    <h3>Ready to Play?</h3>
+                    <p>Whether you're a beginner looking to learn or a seasoned player seeking competition, Paddle It Up has everything you need. Book your first session today and discover why we're the premier destination for racquet sports.</p>
+                    <div class="cta-tags">
+                        <span class="tag">Equipment Rental Available</span>
+                        <span class="tag">Beginner Lessons</span>
+                        <span class="tag">League Play</span>
+                        <span class="tag">Private Coaching</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-lg">Book a Court</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section class="location section" id="location">
+            <div class="container">
+                <h2 class="section-title">Find Us</h2>
+                <p class="section-subtitle">Located in the heart of San Marcos, easily accessible with ample parking</p>
+
+                <div class="location-grid">
+                    <div class="contact-card fade-in">
+                        <h3>Contact & Location</h3>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Address</span>
+                                <span class="contact-value">San Marcos, CA 92078</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+17605550123" class="contact-value">(760) 555-0123</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:info@paddleitup.com" class="contact-value">info@paddleitup.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Hours</span>
+                                <span class="contact-value">Mon-Fri: 6am-10pm<br>Sat-Sun: 7am-8pm</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Product 2 -->
-                    <div class="product-card fade-in">
-                        <div class="product-image">
-                            <!-- Replace with: <img src="images/product-performance-tee.jpg" alt="Performance Tee"> -->
-                            <span>Product Image</span>
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-name">Performance Tee</h3>
-                            <p class="product-price">$29.99</p>
-
-                            <!-- Shopify Buy Button for Performance Tee goes here -->
-                            <div id="shopify-product-2" class="shopify-buy-button">
-                                <!--
-                                    SHOPIFY BUY BUTTON INSTRUCTIONS:
-                                    1. Go to your Shopify admin > Sales channels > Buy Button
-                                    2. Select the "Performance Tee" product
-                                    3. Customize the button style to match your site
-                                    4. Copy the generated embed code
-                                    5. Paste it here, replacing this comment
-                                -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Product 3 -->
-                    <div class="product-card fade-in">
-                        <div class="product-image">
-                            <!-- Replace with: <img src="images/product-vintage-tee.jpg" alt="Vintage Tee"> -->
-                            <span>Product Image</span>
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-name">Vintage Tee</h3>
-                            <p class="product-price">$29.99</p>
-
-                            <!-- Shopify Buy Button for Vintage Tee goes here -->
-                            <div id="shopify-product-3" class="shopify-buy-button">
-                                <!--
-                                    SHOPIFY BUY BUTTON INSTRUCTIONS:
-                                    1. Go to your Shopify admin > Sales channels > Buy Button
-                                    2. Select the "Vintage Tee" product
-                                    3. Customize the button style to match your site
-                                    4. Copy the generated embed code
-                                    5. Paste it here, replacing this comment
-                                -->
-                            </div>
-                        </div>
+                    <div class="map-container fade-in" id="contact">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53442.85774782801!2d-117.19954845!3d33.1433723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf1e305f7e2f9%3A0x1c8c1c8c8c8c8c8c!2sSan%20Marcos%2C%20CA!5e0!3m2!1sen!2sus!4v1234567890"
+                            width="100%"
+                            height="100%"
+                            style="border:0; border-radius: 12px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Paddle It Up Location Map">
+                        </iframe>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- ============================================
-         FOOTER / CONTACT
-         ============================================ -->
-    <footer class="footer" id="contact">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
-                <!-- Column 1: About -->
-                <div class="footer-column">
-                    <h3 class="footer-title">San Marcos Pickleball</h3>
-                    <p class="footer-tagline">Your Premier Pickleball Destination</p>
-                    <address class="footer-address">
-                        123 Placeholder St<br>
-                        San Marcos, CA 92078
-                    </address>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.PNG" alt="Paddle It Up">
+                    <span>Paddle It Up</span>
                 </div>
 
-                <!-- Column 2: Hours & Contact -->
-                <div class="footer-column">
-                    <h4 class="footer-heading">Hours</h4>
-                    <p>Mon-Fri: 6am - 10pm</p>
-                    <p>Sat-Sun: 7am - 8pm</p>
-
-                    <div class="footer-contact">
-                        <p><a href="tel:+17605550123">(760) 555-0123</a></p>
-                        <p><a href="mailto:info@placeholder.com">info@placeholder.com</a></p>
-                    </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
                 </div>
 
-                <!-- Column 3: Social -->
-                <div class="footer-column">
-                    <h4 class="footer-heading">Follow Us</h4>
-                    <div class="social-links">
-                        <!-- Instagram -->
-                        <a href="#" class="social-link" aria-label="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                            </svg>
-                        </a>
-
-                        <!-- Facebook -->
-                        <a href="#" class="social-link" aria-label="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                <p class="footer-tagline">Where champions are made and communities connect</p>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 San Marcos Pickleball. All rights reserved.</p>
+                <p>&copy; 2025 Paddle It Up. All rights reserved. | San Marcos, CA 92078 | <a href="tel:+17605550123">(760) 555-0123</a></p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="js/main.js"></script>
 </body>
 </html>
