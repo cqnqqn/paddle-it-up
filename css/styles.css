@@ -455,11 +455,21 @@ p:last-child {
 
 .feature-card {
     background-color: var(--color-white);
-    padding: 2rem;
+    padding: 0;
     border-radius: 8px;
     text-align: center;
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-normal);
+    overflow: hidden;
+}
+
+.feature-card h3,
+.feature-card p {
+    padding: 0 1.5rem;
+}
+
+.feature-card p {
+    padding-bottom: 1.5rem;
 }
 
 .feature-card:hover {
@@ -467,21 +477,23 @@ p:last-child {
     box-shadow: var(--shadow-md);
 }
 
-.feature-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-gray-light);
-    border-radius: 50%;
-    color: var(--color-primary);
+.feature-image {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-.feature-icon svg {
-    width: 40px;
-    height: 40px;
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-normal);
+}
+
+.feature-card:hover .feature-image img {
+    transform: scale(1.05);
 }
 
 .feature-card h3 {
