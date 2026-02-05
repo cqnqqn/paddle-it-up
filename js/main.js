@@ -1,5 +1,5 @@
 /**
- * San Marcos Pickleball - Main JavaScript
+ * Paddle It Up - Main JavaScript
  * ========================================
  *
  * Features:
@@ -263,7 +263,7 @@
         handleScrollAnimations();
 
         // Log successful initialization (remove in production)
-        console.log('San Marcos Pickleball website initialized successfully.');
+        console.log('Paddle It Up website initialized successfully.');
     }
 
     // Run initialization when DOM is ready
