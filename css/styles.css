@@ -436,7 +436,8 @@ p:last-child {
 
 .mobile-nav-links .btn {
     margin-top: 1rem;
-    text-align: center;
+    width: 100%;
+    justify-content: center;
 }
 
 /* ============================================
