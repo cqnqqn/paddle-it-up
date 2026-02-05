@@ -1,0 +1,64 @@
+# =============================================
+# .gitignore for San Marcos Pickleball Website
+# =============================================
+# This file tells Git which files and folders to ignore
+# when tracking changes. These files won't be uploaded
+# to GitHub or included in version control.
+# =============================================
+
+# ----- OS Generated Files -----
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----- Editor/IDE Files -----
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (WebStorm, etc.)
+.idea/
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# ----- Logs -----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----- Misc -----
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Environment files (in case any are added later)
+.env
+.env.local
+.env.*.local
+
+# Node modules (in case npm is used later)
+node_modules/
+
+# Build output (in case build tools are added later)
+dist/
+build/
