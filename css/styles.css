@@ -232,15 +232,17 @@ p:last-child {
 }
 
 .logo {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: var(--color-secondary);
-    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
 }
 
 .logo:hover {
-    color: var(--color-primary);
+    opacity: 0.8;
 }
 
 .nav-links {
@@ -397,13 +399,8 @@ p:last-child {
     padding: 0 20px;
     margin-top: var(--header-height);
 
-    /*
-        BACKGROUND IMAGE INSTRUCTIONS:
-        Replace the gradient below with your hero image:
-        background: linear-gradient(rgba(26, 35, 50, 0.7), rgba(26, 35, 50, 0.7)),
-                    url('../images/hero-bg.jpg') center/cover no-repeat;
-    */
-    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
+    background: linear-gradient(rgba(26, 35, 50, 0.6), rgba(26, 35, 50, 0.6)),
+                url('../images/gym.jpg') center/cover no-repeat;
 }
 
 @media (min-width: 768px) {
