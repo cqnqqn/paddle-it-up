@@ -685,7 +685,7 @@ p:last-child {
 
 @media (min-width: 1024px) {
     .products-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 }
@@ -696,6 +696,10 @@ p:last-child {
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-normal);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .product-card:hover {
