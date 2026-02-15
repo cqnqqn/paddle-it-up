@@ -685,7 +685,7 @@ p:last-child {
 
 @media (min-width: 1024px) {
     .products-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
     }
 }
@@ -770,6 +770,7 @@ p:last-child {
 .products-grid .product-card:nth-child(1) { transition-delay: 0.1s; }
 .products-grid .product-card:nth-child(2) { transition-delay: 0.2s; }
 .products-grid .product-card:nth-child(3) { transition-delay: 0.3s; }
+.products-grid .product-card:nth-child(4) { transition-delay: 0.4s; }
 
 /* ============================================
    10. LOCATION SECTION
