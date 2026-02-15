@@ -9,21 +9,21 @@
    ============================================ */
 
 :root {
-    /* Colors - Warm Brown Palette */
-    --color-primary: #8B5A2B;
-    --color-primary-dark: #6B4423;
+    /* Colors - Cool Blue-Gray Palette */
+    --color-primary: #60728C;
+    --color-primary-dark: #485670;
 
-    --color-cream: #FAF7F2;
-    --color-cream-dark: #F0EBE3;
-    --color-beige: #E8E0D5;
+    --color-cream: #F5F7FA;
+    --color-cream-dark: #EDF0F5;
+    --color-beige: #DFE4EC;
 
     --color-white: #FFFFFF;
     --color-text: #4A4A4A;
     --color-text-light: #6B6B6B;
-    --color-heading: #5D4232;
+    --color-heading: #384458;
 
-    --color-footer-bg: #3D2E24;
-    --color-footer-text: #D4C4B5;
+    --color-footer-bg: #242B38;
+    --color-footer-text: #C4CCD8;
 
     /* Typography - Modern Sans-Serif */
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
