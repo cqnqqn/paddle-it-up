@@ -292,7 +292,7 @@ p:last-child {
 .logo img {
     height: 40px;
     width: auto;
-    border-radius: 9px;
+    border-radius: 50%;
 }
 
 .logo span {
@@ -479,7 +479,7 @@ p:last-child {
 .hero-logo-box img {
     height: 180px;
     width: auto;
-    border-radius: 40px;
+    border-radius: 50%;
 }
 
 .hero-tagline {
@@ -897,7 +897,7 @@ p:last-child {
     height: 50px;
     width: auto;
     filter: brightness(1.2);
-    border-radius: 11px;
+    border-radius: 50%;
 }
 
 .footer-logo span {
