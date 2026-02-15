@@ -702,6 +702,11 @@ p:last-child {
     justify-content: center;
 }
 
+.product-card > div {
+    width: 100%;
+    text-align: center;
+}
+
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-md);
